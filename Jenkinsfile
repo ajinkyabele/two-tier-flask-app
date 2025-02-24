@@ -13,7 +13,7 @@ pipeline {
     }
         stage("Test") {
         steps{
-            echo " The code is Tested"
+            echo " The code is Tested fine"
         }
     }
         stage("Docker hub") {
